@@ -35,9 +35,9 @@ class ContaBancaria {
 }
 
 //DEPOSITAR
-const contaBanc1 = new ContaBancaria ("Jorge", 30000);
+const contaBanc1 = new ContaBancaria ("Eduardo", 25000);
 contaBanc1.depositar();
 
 //SACAR
-const contaBanc2 = new ContaBancaria ("Marcio", 300000);
+const contaBanc2 = new ContaBancaria ("João", 3000);
 contaBanc2.sacar();
