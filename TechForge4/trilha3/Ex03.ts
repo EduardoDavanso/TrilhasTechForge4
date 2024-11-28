@@ -19,7 +19,7 @@ class PagamentoCartao extends Pagamento {
 
     processar() {
         if (this.validarCartao()) {
-            console.log("Número do Cartão válido! N° Cartão: ${this.numeroCartao}")
+            console.log(`Número do Cartão válido! N° Cartão: ${this.numeroCartao}`)
         } else {
             console.log("Número do cartão INVÁLIDO!")
         }
@@ -44,7 +44,7 @@ class PagamentoBoleto extends Pagamento {
 
     public processar(): void {
         const codigoBoleto = this.gerarCodigoBoleto();
-        console.log("Código boleto: ${codigoBoleto}. Valor: R$${this.valor.toFixed(2)}.");
+        console.log(`Código boleto: ${codigoBoleto}. Valor: R$${this.valor.toFixed(2)}.`);
     }
 }
 

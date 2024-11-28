@@ -23,7 +23,7 @@ class Circulo extends FiguraGeometrica {
         let raizQuadrada = 3.14;
         let res = raizQuadrada * this.raio * this.raio;
         this.area = res;
-        console.log("A área do circulo é ${this.area}")
+        console.log(`A área do circulo é ${this.area}`)
     }
 }
 
@@ -40,7 +40,7 @@ class Triangulo extends FiguraGeometrica {
     calcularArea() {
         let res = (this.base * this.altura) / 2
         this.area = res;
-        console.log("A área do um triângulo é ${this.area} cm²")
+        console.log(`A área do um triângulo é ${this.area} cm²`)
     }
 }
 
@@ -54,7 +54,7 @@ class Quadrado extends FiguraGeometrica {
 
     calcularArea() {
         this.area = this.lateral * this.lateral
-        console.log("A área do um quadrado é ${this.area} cm²")
+        console.log(`A área do um quadrado é ${this.area} cm²`)
     }
 }
 

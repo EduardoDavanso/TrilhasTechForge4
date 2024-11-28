@@ -15,12 +15,12 @@ class Animal {
   
     // Método para exibir o nível de energia
     public statusEnergia(): void {
-      console.log("${this.constructor.name} tem ${this.energia} de energia.");
+      console.log(`${this.constructor.name} tem ${this.energia} de energia.`);
     }
   
     // Método genérico para comer (pode ser sobrescrito)
     public comer(): void {
-    console.log("${this.constructor.name} está comendo..");
+    console.log(`${this.constructor.name} está comendo..`);
       this.alterarEnergia(10);
     }
 }
